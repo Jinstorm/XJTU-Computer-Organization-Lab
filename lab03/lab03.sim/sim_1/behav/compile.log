@@ -1,0 +1,22 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/jinstorm/vivado/lab03/lab03.srcs/sources_1/new/halfadder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module halfadder
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/jinstorm/vivado/lab03/lab03.srcs/sources_1/new/fulladder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fulladder
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/jinstorm/vivado/lab03/lab03.srcs/sources_1/new/addr_4bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module addr_4bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/jinstorm/vivado/lab03/lab03.srcs/sources_1/new/addr_16bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module addr_16bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/jinstorm/vivado/lab03/lab03.srcs/sources_1/new/addr_32bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module addr_32bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/jinstorm/vivado/lab03/lab03.srcs/sources_1/new/SUB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SUB
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/jinstorm/vivado/lab03/lab03.srcs/sources_1/new/Decoder38.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Decoder38
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/jinstorm/vivado/lab03/lab03.srcs/sources_1/new/ADD.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ADD
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/jinstorm/vivado/lab03/lab03.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/jinstorm/vivado/lab03/lab03.srcs/sim_1/new/sim_ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sim_ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/jinstorm/vivado/lab03/lab03.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

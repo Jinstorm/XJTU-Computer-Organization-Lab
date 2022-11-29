@@ -1,0 +1,8 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/jinstorm/vivado/lab01/lab01.srcs/sources_1/new/and21.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module and21
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/jinstorm/vivado/lab01/lab01.srcs/sources_1/new/and61.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module and61
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/jinstorm/vivado/lab01/lab01.srcs/sim_1/new/sim_and61.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sim_and61
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/jinstorm/vivado/lab01/lab01.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

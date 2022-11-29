@@ -1,0 +1,21 @@
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: /opt/Xilinx/Vivado/2016.2/bin/unwrapped/lnx64.o/xelab -wto b1cffe2196bc4ad5916526e13f22f2fc --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot sim_Link_behav xil_defaultlib.sim_Link xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 4 for port CS [/home/jinstorm/vivado/lab0501/lab0501.srcs/sources_1/new/sim_Link.v:87]
+WARNING: [VRFC 10-278] actual bit length 4 differs from formal bit length 1 for port CS [/home/jinstorm/vivado/lab0501/lab0501.srcs/sources_1/new/Link_RAM_RegFile.v:77]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.SignExt
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.Decoder24
+Compiling module xil_defaultlib.RAM_1Kx16_inout_default
+Compiling module xil_defaultlib.RAM_4Kx32_inout
+Compiling module xil_defaultlib.RegFile
+Compiling module xil_defaultlib.Link_RAM_RegFile
+Compiling module xil_defaultlib.sim_Link
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot sim_Link_behav

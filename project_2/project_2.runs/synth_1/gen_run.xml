@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1641988815">
+  <File Type="RDS-UTIL-PB" Name="ARM_CPU_pipeline_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="ARM_CPU_pipeline.dcp"/>
+  <File Type="RDS-UTIL" Name="ARM_CPU_pipeline_utilization_synth.rpt"/>
+  <File Type="RDS-PROPCONSTRS" Name="ARM_CPU_pipeline_drc_synth.rpt"/>
+  <File Type="RDS-RDS" Name="ARM_CPU_pipeline.vds"/>
+  <File Type="VDS-TIMING-PB" Name="ARM_CPU_pipeline_timing_summary_synth.pb"/>
+  <File Type="PA-TCL" Name="ARM_CPU_pipeline.tcl"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="ARM_CPU_pipeline_timing_summary_synth.rpt"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/ARM_CPU_pipeline.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="ARM_CPU_pipeline"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

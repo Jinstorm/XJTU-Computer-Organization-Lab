@@ -1,0 +1,16 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/jinstorm/vivado/lab04/lab04.srcs/sources_1/new/Decoder24.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Decoder24
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/jinstorm/vivado/lab04/lab04.srcs/sources_1/new/RAM_1Kx16_inout.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RAM_1Kx16_inout
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/jinstorm/vivado/lab0501/lab0501.srcs/sources_1/new/RegFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/jinstorm/vivado/lab04/lab04.srcs/sources_1/new/RAM_4Kx32_inout.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RAM_4Kx32_inout
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/jinstorm/vivado/lab0501/lab0501.srcs/sources_1/new/Link_RAM_RegFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Link_RAM_RegFile
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-311] analyzing module SignExt
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/jinstorm/vivado/lab0501/lab0501.srcs/sources_1/new/sim_Link.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sim_Link
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/jinstorm/vivado/lab0501/lab0501.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

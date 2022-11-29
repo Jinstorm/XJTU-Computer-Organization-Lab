@@ -1,0 +1,8 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/jinstorm/vivado/lab02/lab02.srcs/sources_1/new/counter74x161.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module counter74x161
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/jinstorm/vivado/lab02/lab02.srcs/sources_1/new/counter_for73.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module counter_for73
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/jinstorm/vivado/lab02/lab02.srcs/sim_1/new/sim_counterfor73.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sim_counterfor73
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/jinstorm/vivado/lab02/lab02.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

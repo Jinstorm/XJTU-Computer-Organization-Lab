@@ -1,0 +1,39 @@
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: /opt/Xilinx/Vivado/2016.2/bin/unwrapped/lnx64.o/xelab -wto ee1255cd49c743e884a7ab75ff5afca0 --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot sim_ARMCPU_behav xil_defaultlib.sim_ARMCPU xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 5 differs from formal bit length 8 for port d0 [/home/jinstorm/vivado/project_2/project_2.srcs/sources_1/new/ARM_CPU_pipeline.v:604]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 64 for port Instr [/home/jinstorm/vivado/project_2/project_2.srcs/sources_1/new/ARM_CPU_pipeline.v:614]
+WARNING: [VRFC 10-278] actual bit length 8 differs from formal bit length 11 for port d1 [/home/jinstorm/vivado/project_2/project_2.srcs/sources_1/new/ARM_CPU_pipeline.v:626]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Mux2
+Compiling module xil_defaultlib.RegIFID
+Compiling module xil_defaultlib.MainDec
+Compiling module xil_defaultlib.ALUDec
+Compiling module xil_defaultlib.Controller
+Compiling module xil_defaultlib.RegIDEX
+Compiling module xil_defaultlib.RegEXMEM
+Compiling module xil_defaultlib.RegMEMWB
+Compiling module xil_defaultlib.Mux2(WIDTH=11)
+Compiling module xil_defaultlib.HazardDetectUnit
+Compiling module xil_defaultlib.forwardunit
+Compiling module xil_defaultlib.Mux4(WIDTH=64)
+Compiling module xil_defaultlib.PCreg
+Compiling module xil_defaultlib.Adder
+Compiling module xil_defaultlib.SL2
+Compiling module xil_defaultlib.Mux2(WIDTH=64)
+Compiling module xil_defaultlib.RegFile
+Compiling module xil_defaultlib.Mux2(WIDTH=5)
+Compiling module xil_defaultlib.SignExt
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.DataPath
+Compiling module xil_defaultlib.IMem
+Compiling module xil_defaultlib.DMem_default
+Compiling module xil_defaultlib.ARM_CPU_pipeline
+Compiling module xil_defaultlib.sim_ARMCPU
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot sim_ARMCPU_behav

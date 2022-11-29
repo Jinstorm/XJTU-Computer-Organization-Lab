@@ -1,0 +1,26 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/jinstorm/vivado/project_2/project_2.srcs/sources_1/new/ARM_CPU_pipeline.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegFile
+INFO: [VRFC 10-311] analyzing module SL2
+INFO: [VRFC 10-311] analyzing module Adder
+INFO: [VRFC 10-311] analyzing module Mux2
+INFO: [VRFC 10-311] analyzing module Mux4
+INFO: [VRFC 10-311] analyzing module SignExt
+INFO: [VRFC 10-311] analyzing module DMem
+INFO: [VRFC 10-311] analyzing module IMem
+INFO: [VRFC 10-311] analyzing module MainDec
+INFO: [VRFC 10-311] analyzing module ALUDec
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-311] analyzing module Controller
+INFO: [VRFC 10-311] analyzing module PCreg
+INFO: [VRFC 10-311] analyzing module RegIFID
+INFO: [VRFC 10-311] analyzing module RegIDEX
+INFO: [VRFC 10-311] analyzing module RegEXMEM
+INFO: [VRFC 10-311] analyzing module RegMEMWB
+INFO: [VRFC 10-311] analyzing module forwardunit
+INFO: [VRFC 10-311] analyzing module HazardDetectUnit
+INFO: [VRFC 10-311] analyzing module DataPath
+INFO: [VRFC 10-311] analyzing module ARM_CPU_pipeline
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/jinstorm/vivado/project_2/project_2.srcs/sim_1/new/sim_ARMCPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sim_ARMCPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/jinstorm/vivado/project_2/project_2.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

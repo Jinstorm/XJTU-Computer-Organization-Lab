@@ -1,0 +1,17 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  "../../../lab03.srcs/sources_1/new/halfadder.v"
+verilog xil_defaultlib  "../../../lab03.srcs/sources_1/new/fulladder.v"
+verilog xil_defaultlib  "../../../lab03.srcs/sources_1/new/addr_4bit.v"
+verilog xil_defaultlib  "../../../lab03.srcs/sources_1/new/addr_16bit.v"
+verilog xil_defaultlib  "../../../lab03.srcs/sources_1/new/addr_32bit.v"
+verilog xil_defaultlib  "../../../lab03.srcs/sources_1/new/SUB.v"
+verilog xil_defaultlib  "../../../lab03.srcs/sources_1/new/Decoder38.v"
+verilog xil_defaultlib  "../../../lab03.srcs/sources_1/new/ADD.v"
+verilog xil_defaultlib  "../../../lab03.srcs/sources_1/new/ALU.v"
+verilog xil_defaultlib  "../../../lab03.srcs/sim_1/new/sim_ALU.v"
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

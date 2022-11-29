@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:35 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Wed Jan 12 20:00:15 2022
+# Process ID: 56415
+# Current directory: /home/jinstorm/vivado/project_2/project_2.runs/synth_1
+# Command line: vivado -log ARM_CPU_pipeline.vds -mode batch -messageDb vivado.pb -notrace -source ARM_CPU_pipeline.tcl
+# Log file: /home/jinstorm/vivado/project_2/project_2.runs/synth_1/ARM_CPU_pipeline.vds
+# Journal file: /home/jinstorm/vivado/project_2/project_2.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source ARM_CPU_pipeline.tcl -notrace

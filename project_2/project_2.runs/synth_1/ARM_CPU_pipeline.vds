@@ -1,0 +1,714 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:35 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Wed Jan 12 20:00:15 2022
+# Process ID: 56415
+# Current directory: /home/jinstorm/vivado/project_2/project_2.runs/synth_1
+# Command line: vivado -log ARM_CPU_pipeline.vds -mode batch -messageDb vivado.pb -notrace -source ARM_CPU_pipeline.tcl
+# Log file: /home/jinstorm/vivado/project_2/project_2.runs/synth_1/ARM_CPU_pipeline.vds
+# Journal file: /home/jinstorm/vivado/project_2/project_2.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source ARM_CPU_pipeline.tcl -notrace
+Command: synth_design -top ARM_CPU_pipeline -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 56437 
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:06 ; elapsed = 00:00:10 . Memory (MB): peak = 1018.770 ; gain = 152.145 ; free physical = 123 ; free virtual = 5586
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'ARM_CPU_pipeline' [/home/jinstorm/vivado/project_2/project_2.srcs/sources_1/new/ARM_CPU_pipeline.v:543]
+INFO: [Synth 8-638] synthesizing module 'DataPath' [/home/jinstorm/vivado/project_2/project_2.srcs/sources_1/new/ARM_CPU_pipeline.v:440]
+INFO: [Synth 8-638] synthesizing module 'RegIFID' [/home/jinstorm/vivado/project_2/project_2.srcs/sources_1/new/ARM_CPU_pipeline.v:302]
+	Parameter N bound to: 96 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'RegIFID' (1#1) [/home/jinstorm/vivado/project_2/project_2.srcs/sources_1/new/ARM_CPU_pipeline.v:302]
+INFO: [Synth 8-638] synthesizing module 'Controller' [/home/jinstorm/vivado/project_2/project_2.srcs/sources_1/new/ARM_CPU_pipeline.v:249]
+INFO: [Synth 8-638] synthesizing module 'MainDec' [/home/jinstorm/vivado/project_2/project_2.srcs/sources_1/new/ARM_CPU_pipeline.v:155]
+INFO: [Synth 8-256] done synthesizing module 'MainDec' (2#1) [/home/jinstorm/vivado/project_2/project_2.srcs/sources_1/new/ARM_CPU_pipeline.v:155]
+INFO: [Synth 8-638] synthesizing module 'ALUDec' [/home/jinstorm/vivado/project_2/project_2.srcs/sources_1/new/ARM_CPU_pipeline.v:184]
+INFO: [Synth 8-256] done synthesizing module 'ALUDec' (3#1) [/home/jinstorm/vivado/project_2/project_2.srcs/sources_1/new/ARM_CPU_pipeline.v:184]
+INFO: [Synth 8-256] done synthesizing module 'Controller' (4#1) [/home/jinstorm/vivado/project_2/project_2.srcs/sources_1/new/ARM_CPU_pipeline.v:249]
+INFO: [Synth 8-638] synthesizing module 'RegIDEX' [/home/jinstorm/vivado/project_2/project_2.srcs/sources_1/new/ARM_CPU_pipeline.v:316]
+INFO: [Synth 8-256] done synthesizing module 'RegIDEX' (5#1) [/home/jinstorm/vivado/project_2/project_2.srcs/sources_1/new/ARM_CPU_pipeline.v:316]
+INFO: [Synth 8-638] synthesizing module 'RegEXMEM' [/home/jinstorm/vivado/project_2/project_2.srcs/sources_1/new/ARM_CPU_pipeline.v:355]
+INFO: [Synth 8-256] done synthesizing module 'RegEXMEM' (6#1) [/home/jinstorm/vivado/project_2/project_2.srcs/sources_1/new/ARM_CPU_pipeline.v:355]
+INFO: [Synth 8-638] synthesizing module 'RegMEMWB' [/home/jinstorm/vivado/project_2/project_2.srcs/sources_1/new/ARM_CPU_pipeline.v:397]
+INFO: [Synth 8-256] done synthesizing module 'RegMEMWB' (7#1) [/home/jinstorm/vivado/project_2/project_2.srcs/sources_1/new/ARM_CPU_pipeline.v:397]
+INFO: [Synth 8-638] synthesizing module 'PCreg' [/home/jinstorm/vivado/project_2/project_2.srcs/sources_1/new/ARM_CPU_pipeline.v:266]
+	Parameter WIDTH bound to: 64 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'PCreg' (8#1) [/home/jinstorm/vivado/project_2/project_2.srcs/sources_1/new/ARM_CPU_pipeline.v:266]
+INFO: [Synth 8-638] synthesizing module 'Adder' [/home/jinstorm/vivado/project_2/project_2.srcs/sources_1/new/ARM_CPU_pipeline.v:61]
+INFO: [Synth 8-256] done synthesizing module 'Adder' (9#1) [/home/jinstorm/vivado/project_2/project_2.srcs/sources_1/new/ARM_CPU_pipeline.v:61]
+INFO: [Synth 8-638] synthesizing module 'SL2' [/home/jinstorm/vivado/project_2/project_2.srcs/sources_1/new/ARM_CPU_pipeline.v:53]
+INFO: [Synth 8-256] done synthesizing module 'SL2' (10#1) [/home/jinstorm/vivado/project_2/project_2.srcs/sources_1/new/ARM_CPU_pipeline.v:53]
+INFO: [Synth 8-638] synthesizing module 'Mux2' [/home/jinstorm/vivado/project_2/project_2.srcs/sources_1/new/ARM_CPU_pipeline.v:69]
+	Parameter WIDTH bound to: 64 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'Mux2' (11#1) [/home/jinstorm/vivado/project_2/project_2.srcs/sources_1/new/ARM_CPU_pipeline.v:69]
+INFO: [Synth 8-638] synthesizing module 'RegFile' [/home/jinstorm/vivado/project_2/project_2.srcs/sources_1/new/ARM_CPU_pipeline.v:26]
+	Parameter ADDR_SIZE bound to: 5 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'RegFile' (12#1) [/home/jinstorm/vivado/project_2/project_2.srcs/sources_1/new/ARM_CPU_pipeline.v:26]
+INFO: [Synth 8-638] synthesizing module 'Mux2__parameterized0' [/home/jinstorm/vivado/project_2/project_2.srcs/sources_1/new/ARM_CPU_pipeline.v:69]
+	Parameter WIDTH bound to: 5 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'Mux2__parameterized0' (12#1) [/home/jinstorm/vivado/project_2/project_2.srcs/sources_1/new/ARM_CPU_pipeline.v:69]
+INFO: [Synth 8-638] synthesizing module 'SignExt' [/home/jinstorm/vivado/project_2/project_2.srcs/sources_1/new/ARM_CPU_pipeline.v:79]
+INFO: [Synth 8-256] done synthesizing module 'SignExt' (13#1) [/home/jinstorm/vivado/project_2/project_2.srcs/sources_1/new/ARM_CPU_pipeline.v:79]
+INFO: [Synth 8-638] synthesizing module 'ALU' [/home/jinstorm/vivado/project_2/project_2.srcs/sources_1/new/ARM_CPU_pipeline.v:210]
+	Parameter SIZE bound to: 64 - type: integer 
+	Parameter ALU_AND bound to: 4'b0000 
+	Parameter ALU_OR bound to: 4'b0001 
+	Parameter ALU_ADD bound to: 4'b0010 
+	Parameter ALU_SUB bound to: 4'b0110 
+	Parameter ALU_PASSB bound to: 4'b0111 
+	Parameter ALU_NOR bound to: 4'b1100 
+INFO: [Synth 8-256] done synthesizing module 'ALU' (14#1) [/home/jinstorm/vivado/project_2/project_2.srcs/sources_1/new/ARM_CPU_pipeline.v:210]
+INFO: [Synth 8-256] done synthesizing module 'DataPath' (15#1) [/home/jinstorm/vivado/project_2/project_2.srcs/sources_1/new/ARM_CPU_pipeline.v:440]
+INFO: [Synth 8-638] synthesizing module 'IMem' [/home/jinstorm/vivado/project_2/project_2.srcs/sources_1/new/ARM_CPU_pipeline.v:141]
+	Parameter IMEM_SIZE bound to: 512 - type: integer 
+INFO: [Synth 8-3876] $readmem data file '/home/jinstorm/IMem.txt' is read successfully [/home/jinstorm/vivado/project_2/project_2.srcs/sources_1/new/ARM_CPU_pipeline.v:149]
+INFO: [Synth 8-256] done synthesizing module 'IMem' (16#1) [/home/jinstorm/vivado/project_2/project_2.srcs/sources_1/new/ARM_CPU_pipeline.v:141]
+INFO: [Synth 8-638] synthesizing module 'DMem' [/home/jinstorm/vivado/project_2/project_2.srcs/sources_1/new/ARM_CPU_pipeline.v:105]
+	Parameter Addr_Width bound to: 12 - type: integer 
+	Parameter Data_Width bound to: 64 - type: integer 
+	Parameter SIZE bound to: 4096 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'DMem' (17#1) [/home/jinstorm/vivado/project_2/project_2.srcs/sources_1/new/ARM_CPU_pipeline.v:105]
+INFO: [Synth 8-256] done synthesizing module 'ARM_CPU_pipeline' (18#1) [/home/jinstorm/vivado/project_2/project_2.srcs/sources_1/new/ARM_CPU_pipeline.v:543]
+WARNING: [Synth 8-3331] design DMem has unconnected port Addr[63]
+WARNING: [Synth 8-3331] design DMem has unconnected port Addr[62]
+WARNING: [Synth 8-3331] design DMem has unconnected port Addr[61]
+WARNING: [Synth 8-3331] design DMem has unconnected port Addr[60]
+WARNING: [Synth 8-3331] design DMem has unconnected port Addr[59]
+WARNING: [Synth 8-3331] design DMem has unconnected port Addr[58]
+WARNING: [Synth 8-3331] design DMem has unconnected port Addr[57]
+WARNING: [Synth 8-3331] design DMem has unconnected port Addr[56]
+WARNING: [Synth 8-3331] design DMem has unconnected port Addr[55]
+WARNING: [Synth 8-3331] design DMem has unconnected port Addr[54]
+WARNING: [Synth 8-3331] design DMem has unconnected port Addr[53]
+WARNING: [Synth 8-3331] design DMem has unconnected port Addr[52]
+WARNING: [Synth 8-3331] design DMem has unconnected port Addr[51]
+WARNING: [Synth 8-3331] design DMem has unconnected port Addr[50]
+WARNING: [Synth 8-3331] design DMem has unconnected port Addr[49]
+WARNING: [Synth 8-3331] design DMem has unconnected port Addr[48]
+WARNING: [Synth 8-3331] design DMem has unconnected port Addr[47]
+WARNING: [Synth 8-3331] design DMem has unconnected port Addr[46]
+WARNING: [Synth 8-3331] design DMem has unconnected port Addr[45]
+WARNING: [Synth 8-3331] design DMem has unconnected port Addr[44]
+WARNING: [Synth 8-3331] design DMem has unconnected port Addr[43]
+WARNING: [Synth 8-3331] design DMem has unconnected port Addr[42]
+WARNING: [Synth 8-3331] design DMem has unconnected port Addr[41]
+WARNING: [Synth 8-3331] design DMem has unconnected port Addr[40]
+WARNING: [Synth 8-3331] design DMem has unconnected port Addr[39]
+WARNING: [Synth 8-3331] design DMem has unconnected port Addr[38]
+WARNING: [Synth 8-3331] design DMem has unconnected port Addr[37]
+WARNING: [Synth 8-3331] design DMem has unconnected port Addr[36]
+WARNING: [Synth 8-3331] design DMem has unconnected port Addr[35]
+WARNING: [Synth 8-3331] design DMem has unconnected port Addr[34]
+WARNING: [Synth 8-3331] design DMem has unconnected port Addr[33]
+WARNING: [Synth 8-3331] design DMem has unconnected port Addr[32]
+WARNING: [Synth 8-3331] design DMem has unconnected port Addr[31]
+WARNING: [Synth 8-3331] design DMem has unconnected port Addr[30]
+WARNING: [Synth 8-3331] design DMem has unconnected port Addr[29]
+WARNING: [Synth 8-3331] design DMem has unconnected port Addr[28]
+WARNING: [Synth 8-3331] design DMem has unconnected port Addr[27]
+WARNING: [Synth 8-3331] design DMem has unconnected port Addr[26]
+WARNING: [Synth 8-3331] design DMem has unconnected port Addr[25]
+WARNING: [Synth 8-3331] design DMem has unconnected port Addr[24]
+WARNING: [Synth 8-3331] design DMem has unconnected port Addr[23]
+WARNING: [Synth 8-3331] design DMem has unconnected port Addr[22]
+WARNING: [Synth 8-3331] design DMem has unconnected port Addr[21]
+WARNING: [Synth 8-3331] design DMem has unconnected port Addr[20]
+WARNING: [Synth 8-3331] design DMem has unconnected port Addr[19]
+WARNING: [Synth 8-3331] design DMem has unconnected port Addr[18]
+WARNING: [Synth 8-3331] design DMem has unconnected port Addr[17]
+WARNING: [Synth 8-3331] design DMem has unconnected port Addr[16]
+WARNING: [Synth 8-3331] design DMem has unconnected port Addr[15]
+WARNING: [Synth 8-3331] design DMem has unconnected port Addr[14]
+WARNING: [Synth 8-3331] design DMem has unconnected port Addr[13]
+WARNING: [Synth 8-3331] design DMem has unconnected port Addr[12]
+WARNING: [Synth 8-3331] design SignExt has unconnected port in[31]
+WARNING: [Synth 8-3331] design SignExt has unconnected port in[30]
+WARNING: [Synth 8-3331] design SignExt has unconnected port in[29]
+WARNING: [Synth 8-3331] design SignExt has unconnected port in[28]
+WARNING: [Synth 8-3331] design SignExt has unconnected port in[27]
+WARNING: [Synth 8-3331] design SignExt has unconnected port in[26]
+WARNING: [Synth 8-3331] design SignExt has unconnected port in[25]
+WARNING: [Synth 8-3331] design SignExt has unconnected port in[24]
+WARNING: [Synth 8-3331] design SignExt has unconnected port in[23]
+WARNING: [Synth 8-3331] design SignExt has unconnected port in[22]
+WARNING: [Synth 8-3331] design SignExt has unconnected port in[21]
+WARNING: [Synth 8-3331] design SignExt has unconnected port in[11]
+WARNING: [Synth 8-3331] design SignExt has unconnected port in[10]
+WARNING: [Synth 8-3331] design SignExt has unconnected port in[9]
+WARNING: [Synth 8-3331] design SignExt has unconnected port in[8]
+WARNING: [Synth 8-3331] design SignExt has unconnected port in[7]
+WARNING: [Synth 8-3331] design SignExt has unconnected port in[6]
+WARNING: [Synth 8-3331] design SignExt has unconnected port in[5]
+WARNING: [Synth 8-3331] design SignExt has unconnected port in[4]
+WARNING: [Synth 8-3331] design SignExt has unconnected port in[3]
+WARNING: [Synth 8-3331] design SignExt has unconnected port in[2]
+WARNING: [Synth 8-3331] design SignExt has unconnected port in[1]
+WARNING: [Synth 8-3331] design SignExt has unconnected port in[0]
+WARNING: [Synth 8-3331] design SL2 has unconnected port in[63]
+WARNING: [Synth 8-3331] design SL2 has unconnected port in[62]
+WARNING: [Synth 8-3331] design SL2 has unconnected port in[61]
+WARNING: [Synth 8-3331] design SL2 has unconnected port in[60]
+WARNING: [Synth 8-3331] design SL2 has unconnected port in[59]
+WARNING: [Synth 8-3331] design SL2 has unconnected port in[58]
+WARNING: [Synth 8-3331] design SL2 has unconnected port in[57]
+WARNING: [Synth 8-3331] design SL2 has unconnected port in[56]
+WARNING: [Synth 8-3331] design SL2 has unconnected port in[55]
+WARNING: [Synth 8-3331] design SL2 has unconnected port in[54]
+WARNING: [Synth 8-3331] design SL2 has unconnected port in[53]
+WARNING: [Synth 8-3331] design SL2 has unconnected port in[52]
+WARNING: [Synth 8-3331] design SL2 has unconnected port in[51]
+WARNING: [Synth 8-3331] design SL2 has unconnected port in[50]
+WARNING: [Synth 8-3331] design SL2 has unconnected port in[49]
+WARNING: [Synth 8-3331] design SL2 has unconnected port in[48]
+WARNING: [Synth 8-3331] design SL2 has unconnected port in[47]
+WARNING: [Synth 8-3331] design SL2 has unconnected port in[46]
+WARNING: [Synth 8-3331] design SL2 has unconnected port in[45]
+WARNING: [Synth 8-3331] design SL2 has unconnected port in[44]
+WARNING: [Synth 8-3331] design SL2 has unconnected port in[43]
+WARNING: [Synth 8-3331] design SL2 has unconnected port in[42]
+WARNING: [Synth 8-3331] design SL2 has unconnected port in[41]
+WARNING: [Synth 8-3331] design SL2 has unconnected port in[40]
+WARNING: [Synth 8-3331] design SL2 has unconnected port in[39]
+INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:07 ; elapsed = 00:00:11 . Memory (MB): peak = 1066.207 ; gain = 199.582 ; free physical = 118 ; free virtual = 5541
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:08 ; elapsed = 00:00:11 . Memory (MB): peak = 1066.207 ; gain = 199.582 ; free physical = 118 ; free virtual = 5541
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:08 ; elapsed = 00:00:11 . Memory (MB): peak = 1074.211 ; gain = 207.586 ; free physical = 118 ; free virtual = 5541
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "ALUControl1" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/home/jinstorm/vivado/project_2/project_2.srcs/sources_1/new/ARM_CPU_pipeline.v:232]
+INFO: [Synth 8-5545] ROM "Zero" won't be mapped to RAM because address size (64) is larger than maximum supported(25)
+INFO: [Synth 8-5544] ROM "F0" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "RAM" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "RAM" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "Data_Outtmp" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:11 . Memory (MB): peak = 1090.227 ; gain = 223.602 ; free physical = 120 ; free virtual = 5530
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     64 Bit       Adders := 2     
+	   3 Input     64 Bit       Adders := 1     
++---Registers : 
+	               96 Bit    Registers := 1     
+	               64 Bit    Registers := 10    
+	                5 Bit    Registers := 2     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 13    
++---Muxes : 
+	   2 Input     64 Bit        Muxes := 5     
+	   7 Input     64 Bit        Muxes := 2     
+	   6 Input     64 Bit        Muxes := 1     
+	   2 Input     32 Bit        Muxes := 1     
+	   7 Input      9 Bit        Muxes := 2     
+	   2 Input      5 Bit        Muxes := 1     
+	   8 Input      4 Bit        Muxes := 2     
+	   7 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module RegIFID 
+Detailed RTL Component Info : 
++---Registers : 
+	               96 Bit    Registers := 1     
+Module MainDec 
+Detailed RTL Component Info : 
++---Muxes : 
+	   7 Input      9 Bit        Muxes := 2     
+Module ALUDec 
+Detailed RTL Component Info : 
++---Muxes : 
+	   8 Input      4 Bit        Muxes := 2     
+Module RegIDEX 
+Detailed RTL Component Info : 
++---Registers : 
+	               64 Bit    Registers := 4     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 6     
+Module RegEXMEM 
+Detailed RTL Component Info : 
++---Registers : 
+	               64 Bit    Registers := 3     
+	                5 Bit    Registers := 1     
+	                1 Bit    Registers := 5     
+Module RegMEMWB 
+Detailed RTL Component Info : 
++---Registers : 
+	               64 Bit    Registers := 2     
+	                5 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
+Module PCreg 
+Detailed RTL Component Info : 
++---Registers : 
+	               64 Bit    Registers := 1     
+Module Adder 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     64 Bit       Adders := 1     
+Module Mux2 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     64 Bit        Muxes := 1     
+Module RegFile 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     64 Bit        Muxes := 2     
+Module Mux2__parameterized0 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      5 Bit        Muxes := 1     
+Module ALU 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     64 Bit       Adders := 1     
++---Muxes : 
+	   7 Input     64 Bit        Muxes := 2     
+	   6 Input     64 Bit        Muxes := 1     
+	   7 Input      3 Bit        Muxes := 1     
+Module IMem 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+Module DMem 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:10 ; elapsed = 00:00:14 . Memory (MB): peak = 1148.227 ; gain = 281.602 ; free physical = 126 ; free virtual = 5476
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5544] ROM "DataPath_1/ALU/F0" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5545] ROM "DataPath_1/ALU/Zero" won't be mapped to RAM because address size (64) is larger than maximum supported(25)
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:14 . Memory (MB): peak = 1156.234 ; gain = 289.609 ; free physical = 119 ; free virtual = 5469
+---------------------------------------------------------------------------------
+Finished Parallel Reinference  : Time (s): cpu = 00:00:10 ; elapsed = 00:00:14 . Memory (MB): peak = 1156.234 ; gain = 289.609 ; free physical = 119 ; free virtual = 5469
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Preliminary Mapping  Report (see note below)
++-----------------+-----------------------------+-----------+----------------------+--------------------+
+|Module Name      | RTL Object                  | Inference | Size (Depth x Width) | Primitives         | 
++-----------------+-----------------------------+-----------+----------------------+--------------------+
+|ARM_CPU_pipeline | DMem_1/RAM_reg              | Implied   | 4 K x 64             | RAM256X1S x 1024   | 
+|ARM_CPU_pipeline | DataPath_1/RegFile_1/rf_reg | Implied   | 32 x 64              | RAM32M x 22        | 
++-----------------+-----------------------------+-----------+----------------------+--------------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3886] merging instance 'Data_Outtmp_reg__0i_265' (FDE) to 'Data_Outtmp_reg__0i_207'
+INFO: [Synth 8-3886] merging instance 'DMem_1/Data_Outtmp_retimed_reg[4]' (FDE) to 'DMem_1/Data_Outtmp_retimed_reg[62]'
+INFO: [Synth 8-3886] merging instance 'Data_Outtmp_reg__0i_264' (FDE) to 'Data_Outtmp_reg__0i_207'
+INFO: [Synth 8-3886] merging instance 'DMem_1/Data_Outtmp_retimed_reg[5]' (FDE) to 'DMem_1/Data_Outtmp_retimed_reg[62]'
+INFO: [Synth 8-3886] merging instance 'Data_Outtmp_reg__0i_267' (FDE) to 'Data_Outtmp_reg__0i_207'
+INFO: [Synth 8-3886] merging instance 'DMem_1/Data_Outtmp_retimed_reg[2]' (FDE) to 'DMem_1/Data_Outtmp_retimed_reg[62]'
+INFO: [Synth 8-3886] merging instance 'Data_Outtmp_reg__0i_266' (FDE) to 'Data_Outtmp_reg__0i_207'
+INFO: [Synth 8-3886] merging instance 'DMem_1/Data_Outtmp_retimed_reg[3]' (FDE) to 'DMem_1/Data_Outtmp_retimed_reg[62]'
+INFO: [Synth 8-3886] merging instance 'Data_Outtmp_reg__0i_269' (FDE) to 'Data_Outtmp_reg__0i_207'
+INFO: [Synth 8-3886] merging instance 'DMem_1/Data_Outtmp_retimed_reg[0]' (FDE) to 'DMem_1/Data_Outtmp_retimed_reg[62]'
+INFO: [Synth 8-3886] merging instance 'Data_Outtmp_reg__0i_268' (FDE) to 'Data_Outtmp_reg__0i_207'
+INFO: [Synth 8-3886] merging instance 'DMem_1/Data_Outtmp_retimed_reg[1]' (FDE) to 'DMem_1/Data_Outtmp_retimed_reg[62]'
+INFO: [Synth 8-3886] merging instance 'Data_Outtmp_reg__0i_259' (FDE) to 'Data_Outtmp_reg__0i_207'
+INFO: [Synth 8-3886] merging instance 'DMem_1/Data_Outtmp_retimed_reg[10]' (FDE) to 'DMem_1/Data_Outtmp_retimed_reg[62]'
+INFO: [Synth 8-3886] merging instance 'Data_Outtmp_reg__0i_258' (FDE) to 'Data_Outtmp_reg__0i_207'
+INFO: [Synth 8-3886] merging instance 'DMem_1/Data_Outtmp_retimed_reg[11]' (FDE) to 'DMem_1/Data_Outtmp_retimed_reg[62]'
+INFO: [Synth 8-3886] merging instance 'Data_Outtmp_reg__0i_261' (FDE) to 'Data_Outtmp_reg__0i_207'
+INFO: [Synth 8-3886] merging instance 'DMem_1/Data_Outtmp_retimed_reg[8]' (FDE) to 'DMem_1/Data_Outtmp_retimed_reg[62]'
+INFO: [Synth 8-3886] merging instance 'Data_Outtmp_reg__0i_260' (FDE) to 'Data_Outtmp_reg__0i_207'
+INFO: [Synth 8-3886] merging instance 'DMem_1/Data_Outtmp_retimed_reg[9]' (FDE) to 'DMem_1/Data_Outtmp_retimed_reg[62]'
+INFO: [Synth 8-3886] merging instance 'Data_Outtmp_reg__0i_263' (FDE) to 'Data_Outtmp_reg__0i_207'
+INFO: [Synth 8-3886] merging instance 'DMem_1/Data_Outtmp_retimed_reg[6]' (FDE) to 'DMem_1/Data_Outtmp_retimed_reg[62]'
+INFO: [Synth 8-3886] merging instance 'Data_Outtmp_reg__0i_262' (FDE) to 'Data_Outtmp_reg__0i_207'
+INFO: [Synth 8-3886] merging instance 'DMem_1/Data_Outtmp_retimed_reg[7]' (FDE) to 'DMem_1/Data_Outtmp_retimed_reg[62]'
+INFO: [Synth 8-3886] merging instance 'Data_Outtmp_reg__0i_253' (FDE) to 'Data_Outtmp_reg__0i_207'
+INFO: [Synth 8-3886] merging instance 'DMem_1/Data_Outtmp_retimed_reg[16]' (FDE) to 'DMem_1/Data_Outtmp_retimed_reg[62]'
+INFO: [Synth 8-3886] merging instance 'Data_Outtmp_reg__0i_252' (FDE) to 'Data_Outtmp_reg__0i_207'
+INFO: [Synth 8-3886] merging instance 'DMem_1/Data_Outtmp_retimed_reg[17]' (FDE) to 'DMem_1/Data_Outtmp_retimed_reg[62]'
+INFO: [Synth 8-3886] merging instance 'Data_Outtmp_reg__0i_255' (FDE) to 'Data_Outtmp_reg__0i_207'
+INFO: [Synth 8-3886] merging instance 'DMem_1/Data_Outtmp_retimed_reg[14]' (FDE) to 'DMem_1/Data_Outtmp_retimed_reg[62]'
+INFO: [Synth 8-3886] merging instance 'Data_Outtmp_reg__0i_254' (FDE) to 'Data_Outtmp_reg__0i_207'
+INFO: [Synth 8-3886] merging instance 'DMem_1/Data_Outtmp_retimed_reg[15]' (FDE) to 'DMem_1/Data_Outtmp_retimed_reg[62]'
+INFO: [Synth 8-3886] merging instance 'Data_Outtmp_reg__0i_257' (FDE) to 'Data_Outtmp_reg__0i_207'
+INFO: [Synth 8-3886] merging instance 'DMem_1/Data_Outtmp_retimed_reg[12]' (FDE) to 'DMem_1/Data_Outtmp_retimed_reg[62]'
+INFO: [Synth 8-3886] merging instance 'Data_Outtmp_reg__0i_256' (FDE) to 'Data_Outtmp_reg__0i_207'
+INFO: [Synth 8-3886] merging instance 'DMem_1/Data_Outtmp_retimed_reg[13]' (FDE) to 'DMem_1/Data_Outtmp_retimed_reg[62]'
+INFO: [Synth 8-3886] merging instance 'Data_Outtmp_reg__0i_247' (FDE) to 'Data_Outtmp_reg__0i_207'
+INFO: [Synth 8-3886] merging instance 'DMem_1/Data_Outtmp_retimed_reg[22]' (FDE) to 'DMem_1/Data_Outtmp_retimed_reg[62]'
+INFO: [Synth 8-3886] merging instance 'Data_Outtmp_reg__0i_246' (FDE) to 'Data_Outtmp_reg__0i_207'
+INFO: [Synth 8-3886] merging instance 'DMem_1/Data_Outtmp_retimed_reg[23]' (FDE) to 'DMem_1/Data_Outtmp_retimed_reg[62]'
+INFO: [Synth 8-3886] merging instance 'Data_Outtmp_reg__0i_249' (FDE) to 'Data_Outtmp_reg__0i_207'
+INFO: [Synth 8-3886] merging instance 'DMem_1/Data_Outtmp_retimed_reg[20]' (FDE) to 'DMem_1/Data_Outtmp_retimed_reg[62]'
+INFO: [Synth 8-3886] merging instance 'Data_Outtmp_reg__0i_248' (FDE) to 'Data_Outtmp_reg__0i_207'
+INFO: [Synth 8-3886] merging instance 'DMem_1/Data_Outtmp_retimed_reg[21]' (FDE) to 'DMem_1/Data_Outtmp_retimed_reg[62]'
+INFO: [Synth 8-3886] merging instance 'Data_Outtmp_reg__0i_251' (FDE) to 'Data_Outtmp_reg__0i_207'
+INFO: [Synth 8-3886] merging instance 'DMem_1/Data_Outtmp_retimed_reg[18]' (FDE) to 'DMem_1/Data_Outtmp_retimed_reg[62]'
+INFO: [Synth 8-3886] merging instance 'Data_Outtmp_reg__0i_250' (FDE) to 'Data_Outtmp_reg__0i_207'
+INFO: [Synth 8-3886] merging instance 'DMem_1/Data_Outtmp_retimed_reg[19]' (FDE) to 'DMem_1/Data_Outtmp_retimed_reg[62]'
+INFO: [Synth 8-3886] merging instance 'Data_Outtmp_reg__0i_241' (FDE) to 'Data_Outtmp_reg__0i_207'
+INFO: [Synth 8-3886] merging instance 'DMem_1/Data_Outtmp_retimed_reg[28]' (FDE) to 'DMem_1/Data_Outtmp_retimed_reg[62]'
+INFO: [Synth 8-3886] merging instance 'Data_Outtmp_reg__0i_240' (FDE) to 'Data_Outtmp_reg__0i_207'
+INFO: [Synth 8-3886] merging instance 'DMem_1/Data_Outtmp_retimed_reg[29]' (FDE) to 'DMem_1/Data_Outtmp_retimed_reg[62]'
+INFO: [Synth 8-3886] merging instance 'Data_Outtmp_reg__0i_243' (FDE) to 'Data_Outtmp_reg__0i_207'
+INFO: [Synth 8-3886] merging instance 'DMem_1/Data_Outtmp_retimed_reg[26]' (FDE) to 'DMem_1/Data_Outtmp_retimed_reg[62]'
+INFO: [Synth 8-3886] merging instance 'Data_Outtmp_reg__0i_242' (FDE) to 'Data_Outtmp_reg__0i_207'
+INFO: [Synth 8-3886] merging instance 'DMem_1/Data_Outtmp_retimed_reg[27]' (FDE) to 'DMem_1/Data_Outtmp_retimed_reg[62]'
+INFO: [Synth 8-3886] merging instance 'Data_Outtmp_reg__0i_245' (FDE) to 'Data_Outtmp_reg__0i_207'
+INFO: [Synth 8-3886] merging instance 'DMem_1/Data_Outtmp_retimed_reg[24]' (FDE) to 'DMem_1/Data_Outtmp_retimed_reg[62]'
+INFO: [Synth 8-3886] merging instance 'Data_Outtmp_reg__0i_244' (FDE) to 'Data_Outtmp_reg__0i_207'
+INFO: [Synth 8-3886] merging instance 'DMem_1/Data_Outtmp_retimed_reg[25]' (FDE) to 'DMem_1/Data_Outtmp_retimed_reg[62]'
+INFO: [Synth 8-3886] merging instance 'Data_Outtmp_reg__0i_235' (FDE) to 'Data_Outtmp_reg__0i_207'
+INFO: [Synth 8-3886] merging instance 'DMem_1/Data_Outtmp_retimed_reg[34]' (FDE) to 'DMem_1/Data_Outtmp_retimed_reg[62]'
+INFO: [Synth 8-3886] merging instance 'Data_Outtmp_reg__0i_234' (FDE) to 'Data_Outtmp_reg__0i_207'
+INFO: [Synth 8-3886] merging instance 'DMem_1/Data_Outtmp_retimed_reg[35]' (FDE) to 'DMem_1/Data_Outtmp_retimed_reg[62]'
+INFO: [Synth 8-3886] merging instance 'Data_Outtmp_reg__0i_237' (FDE) to 'Data_Outtmp_reg__0i_207'
+INFO: [Synth 8-3886] merging instance 'DMem_1/Data_Outtmp_retimed_reg[32]' (FDE) to 'DMem_1/Data_Outtmp_retimed_reg[62]'
+INFO: [Synth 8-3886] merging instance 'Data_Outtmp_reg__0i_236' (FDE) to 'Data_Outtmp_reg__0i_207'
+INFO: [Synth 8-3886] merging instance 'DMem_1/Data_Outtmp_retimed_reg[33]' (FDE) to 'DMem_1/Data_Outtmp_retimed_reg[62]'
+INFO: [Synth 8-3886] merging instance 'Data_Outtmp_reg__0i_239' (FDE) to 'Data_Outtmp_reg__0i_207'
+INFO: [Synth 8-3886] merging instance 'DMem_1/Data_Outtmp_retimed_reg[30]' (FDE) to 'DMem_1/Data_Outtmp_retimed_reg[62]'
+INFO: [Synth 8-3886] merging instance 'Data_Outtmp_reg__0i_238' (FDE) to 'Data_Outtmp_reg__0i_207'
+INFO: [Synth 8-3886] merging instance 'DMem_1/Data_Outtmp_retimed_reg[31]' (FDE) to 'DMem_1/Data_Outtmp_retimed_reg[62]'
+INFO: [Synth 8-3886] merging instance 'Data_Outtmp_reg__0i_229' (FDE) to 'Data_Outtmp_reg__0i_207'
+INFO: [Synth 8-3886] merging instance 'DMem_1/Data_Outtmp_retimed_reg[40]' (FDE) to 'DMem_1/Data_Outtmp_retimed_reg[62]'
+INFO: [Synth 8-3886] merging instance 'Data_Outtmp_reg__0i_228' (FDE) to 'Data_Outtmp_reg__0i_207'
+INFO: [Synth 8-3886] merging instance 'DMem_1/Data_Outtmp_retimed_reg[41]' (FDE) to 'DMem_1/Data_Outtmp_retimed_reg[62]'
+INFO: [Synth 8-3886] merging instance 'Data_Outtmp_reg__0i_231' (FDE) to 'Data_Outtmp_reg__0i_207'
+INFO: [Synth 8-3886] merging instance 'DMem_1/Data_Outtmp_retimed_reg[38]' (FDE) to 'DMem_1/Data_Outtmp_retimed_reg[62]'
+INFO: [Synth 8-3886] merging instance 'Data_Outtmp_reg__0i_230' (FDE) to 'Data_Outtmp_reg__0i_207'
+INFO: [Synth 8-3886] merging instance 'DMem_1/Data_Outtmp_retimed_reg[39]' (FDE) to 'DMem_1/Data_Outtmp_retimed_reg[62]'
+INFO: [Synth 8-3886] merging instance 'Data_Outtmp_reg__0i_233' (FDE) to 'Data_Outtmp_reg__0i_207'
+INFO: [Synth 8-3886] merging instance 'DMem_1/Data_Outtmp_retimed_reg[36]' (FDE) to 'DMem_1/Data_Outtmp_retimed_reg[62]'
+INFO: [Synth 8-3886] merging instance 'Data_Outtmp_reg__0i_232' (FDE) to 'Data_Outtmp_reg__0i_207'
+INFO: [Synth 8-3886] merging instance 'DMem_1/Data_Outtmp_retimed_reg[37]' (FDE) to 'DMem_1/Data_Outtmp_retimed_reg[62]'
+INFO: [Synth 8-3886] merging instance 'Data_Outtmp_reg__0i_223' (FDE) to 'Data_Outtmp_reg__0i_207'
+INFO: [Synth 8-3886] merging instance 'DMem_1/Data_Outtmp_retimed_reg[46]' (FDE) to 'DMem_1/Data_Outtmp_retimed_reg[62]'
+INFO: [Synth 8-3886] merging instance 'Data_Outtmp_reg__0i_222' (FDE) to 'Data_Outtmp_reg__0i_207'
+INFO: [Synth 8-3886] merging instance 'DMem_1/Data_Outtmp_retimed_reg[47]' (FDE) to 'DMem_1/Data_Outtmp_retimed_reg[62]'
+INFO: [Synth 8-3886] merging instance 'Data_Outtmp_reg__0i_225' (FDE) to 'Data_Outtmp_reg__0i_207'
+INFO: [Synth 8-3886] merging instance 'DMem_1/Data_Outtmp_retimed_reg[44]' (FDE) to 'DMem_1/Data_Outtmp_retimed_reg[62]'
+INFO: [Synth 8-3886] merging instance 'Data_Outtmp_reg__0i_224' (FDE) to 'Data_Outtmp_reg__0i_207'
+INFO: [Synth 8-3886] merging instance 'DMem_1/Data_Outtmp_retimed_reg[45]' (FDE) to 'DMem_1/Data_Outtmp_retimed_reg[62]'
+INFO: [Synth 8-3886] merging instance 'Data_Outtmp_reg__0i_227' (FDE) to 'Data_Outtmp_reg__0i_207'
+INFO: [Synth 8-3886] merging instance 'DMem_1/Data_Outtmp_retimed_reg[42]' (FDE) to 'DMem_1/Data_Outtmp_retimed_reg[62]'
+INFO: [Synth 8-3886] merging instance 'Data_Outtmp_reg__0i_226' (FDE) to 'Data_Outtmp_reg__0i_207'
+INFO: [Synth 8-3886] merging instance 'DMem_1/Data_Outtmp_retimed_reg[43]' (FDE) to 'DMem_1/Data_Outtmp_retimed_reg[62]'
+INFO: [Synth 8-3886] merging instance 'Data_Outtmp_reg__0i_217' (FDE) to 'Data_Outtmp_reg__0i_207'
+INFO: [Synth 8-3886] merging instance 'DMem_1/Data_Outtmp_retimed_reg[52]' (FDE) to 'DMem_1/Data_Outtmp_retimed_reg[62]'
+INFO: [Synth 8-3886] merging instance 'Data_Outtmp_reg__0i_216' (FDE) to 'Data_Outtmp_reg__0i_207'
+INFO: [Synth 8-3886] merging instance 'DMem_1/Data_Outtmp_retimed_reg[53]' (FDE) to 'DMem_1/Data_Outtmp_retimed_reg[62]'
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Data_Outtmp_reg__0i_208)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\DMem_1/Data_Outtmp_retimed_reg[61] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (i_271/\DataPath_1/RegIFID_1/Q_reg_rep_bsel[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_271/\DataPath_1/RegIFID_1/Q_reg_rep_bsel[8] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\DataPath_1/RegIFID_1/Q_reg[28] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\DataPath_1/RegIFID_1/Q_reg[22] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\DataPath_1/RegIDEX_1/ALUSrc_o_reg )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\DataPath_1/RegIDEX_1/ALUControl_o_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\DataPath_1/RegIDEX_1/ALUSrc_o_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\DataPath_1/RegMEMWB_1/RegWrite_o_reg )
+WARNING: [Synth 8-3332] Sequential element (DMem_1/Data_Outtmp_retimed_reg[63]) is unused and will be removed from module ARM_CPU_pipeline.
+WARNING: [Synth 8-3332] Sequential element (DMem_1/Data_Outtmp_retimed_reg[62]) is unused and will be removed from module ARM_CPU_pipeline.
+WARNING: [Synth 8-3332] Sequential element (DMem_1/Data_Outtmp_retimed_reg[61]) is unused and will be removed from module ARM_CPU_pipeline.
+WARNING: [Synth 8-3332] Sequential element (DMem_1/Data_Outtmp_retimed_reg[60]) is unused and will be removed from module ARM_CPU_pipeline.
+WARNING: [Synth 8-3332] Sequential element (DMem_1/Data_Outtmp_retimed_reg[59]) is unused and will be removed from module ARM_CPU_pipeline.
+WARNING: [Synth 8-3332] Sequential element (DMem_1/Data_Outtmp_retimed_reg[58]) is unused and will be removed from module ARM_CPU_pipeline.
+WARNING: [Synth 8-3332] Sequential element (DMem_1/Data_Outtmp_retimed_reg[57]) is unused and will be removed from module ARM_CPU_pipeline.
+WARNING: [Synth 8-3332] Sequential element (DMem_1/Data_Outtmp_retimed_reg[56]) is unused and will be removed from module ARM_CPU_pipeline.
+WARNING: [Synth 8-3332] Sequential element (DMem_1/Data_Outtmp_retimed_reg[55]) is unused and will be removed from module ARM_CPU_pipeline.
+WARNING: [Synth 8-3332] Sequential element (DMem_1/Data_Outtmp_retimed_reg[54]) is unused and will be removed from module ARM_CPU_pipeline.
+WARNING: [Synth 8-3332] Sequential element (DMem_1/Data_Outtmp_retimed_reg[53]) is unused and will be removed from module ARM_CPU_pipeline.
+WARNING: [Synth 8-3332] Sequential element (DMem_1/Data_Outtmp_retimed_reg[52]) is unused and will be removed from module ARM_CPU_pipeline.
+WARNING: [Synth 8-3332] Sequential element (DMem_1/Data_Outtmp_retimed_reg[51]) is unused and will be removed from module ARM_CPU_pipeline.
+WARNING: [Synth 8-3332] Sequential element (DMem_1/Data_Outtmp_retimed_reg[50]) is unused and will be removed from module ARM_CPU_pipeline.
+WARNING: [Synth 8-3332] Sequential element (DMem_1/Data_Outtmp_retimed_reg[49]) is unused and will be removed from module ARM_CPU_pipeline.
+WARNING: [Synth 8-3332] Sequential element (DMem_1/Data_Outtmp_retimed_reg[48]) is unused and will be removed from module ARM_CPU_pipeline.
+WARNING: [Synth 8-3332] Sequential element (DMem_1/Data_Outtmp_retimed_reg[47]) is unused and will be removed from module ARM_CPU_pipeline.
+WARNING: [Synth 8-3332] Sequential element (DMem_1/Data_Outtmp_retimed_reg[46]) is unused and will be removed from module ARM_CPU_pipeline.
+WARNING: [Synth 8-3332] Sequential element (DMem_1/Data_Outtmp_retimed_reg[45]) is unused and will be removed from module ARM_CPU_pipeline.
+WARNING: [Synth 8-3332] Sequential element (DMem_1/Data_Outtmp_retimed_reg[44]) is unused and will be removed from module ARM_CPU_pipeline.
+WARNING: [Synth 8-3332] Sequential element (DMem_1/Data_Outtmp_retimed_reg[43]) is unused and will be removed from module ARM_CPU_pipeline.
+WARNING: [Synth 8-3332] Sequential element (DMem_1/Data_Outtmp_retimed_reg[42]) is unused and will be removed from module ARM_CPU_pipeline.
+WARNING: [Synth 8-3332] Sequential element (DMem_1/Data_Outtmp_retimed_reg[41]) is unused and will be removed from module ARM_CPU_pipeline.
+WARNING: [Synth 8-3332] Sequential element (DMem_1/Data_Outtmp_retimed_reg[40]) is unused and will be removed from module ARM_CPU_pipeline.
+WARNING: [Synth 8-3332] Sequential element (DMem_1/Data_Outtmp_retimed_reg[39]) is unused and will be removed from module ARM_CPU_pipeline.
+WARNING: [Synth 8-3332] Sequential element (DMem_1/Data_Outtmp_retimed_reg[38]) is unused and will be removed from module ARM_CPU_pipeline.
+WARNING: [Synth 8-3332] Sequential element (DMem_1/Data_Outtmp_retimed_reg[37]) is unused and will be removed from module ARM_CPU_pipeline.
+WARNING: [Synth 8-3332] Sequential element (DMem_1/Data_Outtmp_retimed_reg[36]) is unused and will be removed from module ARM_CPU_pipeline.
+WARNING: [Synth 8-3332] Sequential element (DMem_1/Data_Outtmp_retimed_reg[35]) is unused and will be removed from module ARM_CPU_pipeline.
+WARNING: [Synth 8-3332] Sequential element (DMem_1/Data_Outtmp_retimed_reg[34]) is unused and will be removed from module ARM_CPU_pipeline.
+WARNING: [Synth 8-3332] Sequential element (DMem_1/Data_Outtmp_retimed_reg[33]) is unused and will be removed from module ARM_CPU_pipeline.
+WARNING: [Synth 8-3332] Sequential element (DMem_1/Data_Outtmp_retimed_reg[32]) is unused and will be removed from module ARM_CPU_pipeline.
+WARNING: [Synth 8-3332] Sequential element (DMem_1/Data_Outtmp_retimed_reg[31]) is unused and will be removed from module ARM_CPU_pipeline.
+WARNING: [Synth 8-3332] Sequential element (DMem_1/Data_Outtmp_retimed_reg[30]) is unused and will be removed from module ARM_CPU_pipeline.
+WARNING: [Synth 8-3332] Sequential element (DMem_1/Data_Outtmp_retimed_reg[29]) is unused and will be removed from module ARM_CPU_pipeline.
+WARNING: [Synth 8-3332] Sequential element (DMem_1/Data_Outtmp_retimed_reg[28]) is unused and will be removed from module ARM_CPU_pipeline.
+WARNING: [Synth 8-3332] Sequential element (DMem_1/Data_Outtmp_retimed_reg[27]) is unused and will be removed from module ARM_CPU_pipeline.
+WARNING: [Synth 8-3332] Sequential element (DMem_1/Data_Outtmp_retimed_reg[26]) is unused and will be removed from module ARM_CPU_pipeline.
+WARNING: [Synth 8-3332] Sequential element (DMem_1/Data_Outtmp_retimed_reg[25]) is unused and will be removed from module ARM_CPU_pipeline.
+WARNING: [Synth 8-3332] Sequential element (DMem_1/Data_Outtmp_retimed_reg[24]) is unused and will be removed from module ARM_CPU_pipeline.
+WARNING: [Synth 8-3332] Sequential element (DMem_1/Data_Outtmp_retimed_reg[23]) is unused and will be removed from module ARM_CPU_pipeline.
+WARNING: [Synth 8-3332] Sequential element (DMem_1/Data_Outtmp_retimed_reg[22]) is unused and will be removed from module ARM_CPU_pipeline.
+WARNING: [Synth 8-3332] Sequential element (DMem_1/Data_Outtmp_retimed_reg[21]) is unused and will be removed from module ARM_CPU_pipeline.
+WARNING: [Synth 8-3332] Sequential element (DMem_1/Data_Outtmp_retimed_reg[20]) is unused and will be removed from module ARM_CPU_pipeline.
+WARNING: [Synth 8-3332] Sequential element (DMem_1/Data_Outtmp_retimed_reg[19]) is unused and will be removed from module ARM_CPU_pipeline.
+WARNING: [Synth 8-3332] Sequential element (DMem_1/Data_Outtmp_retimed_reg[18]) is unused and will be removed from module ARM_CPU_pipeline.
+WARNING: [Synth 8-3332] Sequential element (DMem_1/Data_Outtmp_retimed_reg[17]) is unused and will be removed from module ARM_CPU_pipeline.
+WARNING: [Synth 8-3332] Sequential element (DMem_1/Data_Outtmp_retimed_reg[16]) is unused and will be removed from module ARM_CPU_pipeline.
+WARNING: [Synth 8-3332] Sequential element (DMem_1/Data_Outtmp_retimed_reg[15]) is unused and will be removed from module ARM_CPU_pipeline.
+WARNING: [Synth 8-3332] Sequential element (DMem_1/Data_Outtmp_retimed_reg[14]) is unused and will be removed from module ARM_CPU_pipeline.
+WARNING: [Synth 8-3332] Sequential element (DMem_1/Data_Outtmp_retimed_reg[13]) is unused and will be removed from module ARM_CPU_pipeline.
+WARNING: [Synth 8-3332] Sequential element (DMem_1/Data_Outtmp_retimed_reg[12]) is unused and will be removed from module ARM_CPU_pipeline.
+WARNING: [Synth 8-3332] Sequential element (DMem_1/Data_Outtmp_retimed_reg[11]) is unused and will be removed from module ARM_CPU_pipeline.
+WARNING: [Synth 8-3332] Sequential element (DMem_1/Data_Outtmp_retimed_reg[10]) is unused and will be removed from module ARM_CPU_pipeline.
+WARNING: [Synth 8-3332] Sequential element (DMem_1/Data_Outtmp_retimed_reg[9]) is unused and will be removed from module ARM_CPU_pipeline.
+WARNING: [Synth 8-3332] Sequential element (DMem_1/Data_Outtmp_retimed_reg[8]) is unused and will be removed from module ARM_CPU_pipeline.
+WARNING: [Synth 8-3332] Sequential element (DMem_1/Data_Outtmp_retimed_reg[7]) is unused and will be removed from module ARM_CPU_pipeline.
+WARNING: [Synth 8-3332] Sequential element (DMem_1/Data_Outtmp_retimed_reg[6]) is unused and will be removed from module ARM_CPU_pipeline.
+WARNING: [Synth 8-3332] Sequential element (DMem_1/Data_Outtmp_retimed_reg[5]) is unused and will be removed from module ARM_CPU_pipeline.
+WARNING: [Synth 8-3332] Sequential element (DMem_1/Data_Outtmp_retimed_reg[4]) is unused and will be removed from module ARM_CPU_pipeline.
+WARNING: [Synth 8-3332] Sequential element (DMem_1/Data_Outtmp_retimed_reg[3]) is unused and will be removed from module ARM_CPU_pipeline.
+WARNING: [Synth 8-3332] Sequential element (DMem_1/Data_Outtmp_retimed_reg[2]) is unused and will be removed from module ARM_CPU_pipeline.
+WARNING: [Synth 8-3332] Sequential element (DMem_1/Data_Outtmp_retimed_reg[1]) is unused and will be removed from module ARM_CPU_pipeline.
+WARNING: [Synth 8-3332] Sequential element (DMem_1/Data_Outtmp_retimed_reg[0]) is unused and will be removed from module ARM_CPU_pipeline.
+WARNING: [Synth 8-3332] Sequential element (Data_Outtmp_reg__0i_206) is unused and will be removed from module ARM_CPU_pipeline.
+WARNING: [Synth 8-3332] Sequential element (Data_Outtmp_reg__0i_207) is unused and will be removed from module ARM_CPU_pipeline.
+WARNING: [Synth 8-3332] Sequential element (Data_Outtmp_reg__0i_208) is unused and will be removed from module ARM_CPU_pipeline.
+WARNING: [Synth 8-3332] Sequential element (Data_Outtmp_reg__0i_209) is unused and will be removed from module ARM_CPU_pipeline.
+WARNING: [Synth 8-3332] Sequential element (Data_Outtmp_reg__0i_210) is unused and will be removed from module ARM_CPU_pipeline.
+WARNING: [Synth 8-3332] Sequential element (Data_Outtmp_reg__0i_211) is unused and will be removed from module ARM_CPU_pipeline.
+WARNING: [Synth 8-3332] Sequential element (Data_Outtmp_reg__0i_212) is unused and will be removed from module ARM_CPU_pipeline.
+WARNING: [Synth 8-3332] Sequential element (Data_Outtmp_reg__0i_213) is unused and will be removed from module ARM_CPU_pipeline.
+WARNING: [Synth 8-3332] Sequential element (Data_Outtmp_reg__0i_214) is unused and will be removed from module ARM_CPU_pipeline.
+WARNING: [Synth 8-3332] Sequential element (Data_Outtmp_reg__0i_215) is unused and will be removed from module ARM_CPU_pipeline.
+WARNING: [Synth 8-3332] Sequential element (Data_Outtmp_reg__0i_216) is unused and will be removed from module ARM_CPU_pipeline.
+WARNING: [Synth 8-3332] Sequential element (Data_Outtmp_reg__0i_217) is unused and will be removed from module ARM_CPU_pipeline.
+WARNING: [Synth 8-3332] Sequential element (Data_Outtmp_reg__0i_218) is unused and will be removed from module ARM_CPU_pipeline.
+WARNING: [Synth 8-3332] Sequential element (Data_Outtmp_reg__0i_219) is unused and will be removed from module ARM_CPU_pipeline.
+WARNING: [Synth 8-3332] Sequential element (Data_Outtmp_reg__0i_220) is unused and will be removed from module ARM_CPU_pipeline.
+WARNING: [Synth 8-3332] Sequential element (Data_Outtmp_reg__0i_221) is unused and will be removed from module ARM_CPU_pipeline.
+WARNING: [Synth 8-3332] Sequential element (Data_Outtmp_reg__0i_222) is unused and will be removed from module ARM_CPU_pipeline.
+WARNING: [Synth 8-3332] Sequential element (Data_Outtmp_reg__0i_223) is unused and will be removed from module ARM_CPU_pipeline.
+WARNING: [Synth 8-3332] Sequential element (Data_Outtmp_reg__0i_224) is unused and will be removed from module ARM_CPU_pipeline.
+WARNING: [Synth 8-3332] Sequential element (Data_Outtmp_reg__0i_225) is unused and will be removed from module ARM_CPU_pipeline.
+WARNING: [Synth 8-3332] Sequential element (Data_Outtmp_reg__0i_226) is unused and will be removed from module ARM_CPU_pipeline.
+WARNING: [Synth 8-3332] Sequential element (Data_Outtmp_reg__0i_227) is unused and will be removed from module ARM_CPU_pipeline.
+WARNING: [Synth 8-3332] Sequential element (Data_Outtmp_reg__0i_228) is unused and will be removed from module ARM_CPU_pipeline.
+WARNING: [Synth 8-3332] Sequential element (Data_Outtmp_reg__0i_229) is unused and will be removed from module ARM_CPU_pipeline.
+WARNING: [Synth 8-3332] Sequential element (Data_Outtmp_reg__0i_230) is unused and will be removed from module ARM_CPU_pipeline.
+WARNING: [Synth 8-3332] Sequential element (Data_Outtmp_reg__0i_231) is unused and will be removed from module ARM_CPU_pipeline.
+WARNING: [Synth 8-3332] Sequential element (Data_Outtmp_reg__0i_232) is unused and will be removed from module ARM_CPU_pipeline.
+WARNING: [Synth 8-3332] Sequential element (Data_Outtmp_reg__0i_233) is unused and will be removed from module ARM_CPU_pipeline.
+WARNING: [Synth 8-3332] Sequential element (Data_Outtmp_reg__0i_234) is unused and will be removed from module ARM_CPU_pipeline.
+WARNING: [Synth 8-3332] Sequential element (Data_Outtmp_reg__0i_235) is unused and will be removed from module ARM_CPU_pipeline.
+WARNING: [Synth 8-3332] Sequential element (Data_Outtmp_reg__0i_236) is unused and will be removed from module ARM_CPU_pipeline.
+WARNING: [Synth 8-3332] Sequential element (Data_Outtmp_reg__0i_237) is unused and will be removed from module ARM_CPU_pipeline.
+WARNING: [Synth 8-3332] Sequential element (Data_Outtmp_reg__0i_238) is unused and will be removed from module ARM_CPU_pipeline.
+WARNING: [Synth 8-3332] Sequential element (Data_Outtmp_reg__0i_239) is unused and will be removed from module ARM_CPU_pipeline.
+WARNING: [Synth 8-3332] Sequential element (Data_Outtmp_reg__0i_240) is unused and will be removed from module ARM_CPU_pipeline.
+WARNING: [Synth 8-3332] Sequential element (Data_Outtmp_reg__0i_241) is unused and will be removed from module ARM_CPU_pipeline.
+INFO: [Common 17-14] Message 'Synth 8-3332' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:15 . Memory (MB): peak = 1165.250 ; gain = 298.625 ; free physical = 117 ; free virtual = 5462
+---------------------------------------------------------------------------------
+Finished Parallel Area Optimization  : Time (s): cpu = 00:00:10 ; elapsed = 00:00:15 . Memory (MB): peak = 1165.250 ; gain = 298.625 ; free physical = 117 ; free virtual = 5462
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:15 . Memory (MB): peak = 1165.250 ; gain = 298.625 ; free physical = 117 ; free virtual = 5462
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:10 ; elapsed = 00:00:15 . Memory (MB): peak = 1174.266 ; gain = 307.641 ; free physical = 134 ; free virtual = 5459
+---------------------------------------------------------------------------------
+Finished Parallel Technology Mapping Optimization  : Time (s): cpu = 00:00:10 ; elapsed = 00:00:15 . Memory (MB): peak = 1174.266 ; gain = 307.641 ; free physical = 134 ; free virtual = 5459
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:00:10 ; elapsed = 00:00:15 . Memory (MB): peak = 1174.266 ; gain = 307.641 ; free physical = 134 ; free virtual = 5459
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:11 ; elapsed = 00:00:15 . Memory (MB): peak = 1174.266 ; gain = 307.641 ; free physical = 134 ; free virtual = 5458
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:11 ; elapsed = 00:00:15 . Memory (MB): peak = 1174.266 ; gain = 307.641 ; free physical = 134 ; free virtual = 5458
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:11 ; elapsed = 00:00:15 . Memory (MB): peak = 1174.266 ; gain = 307.641 ; free physical = 134 ; free virtual = 5458
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:11 ; elapsed = 00:00:15 . Memory (MB): peak = 1174.266 ; gain = 307.641 ; free physical = 134 ; free virtual = 5458
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:11 ; elapsed = 00:00:15 . Memory (MB): peak = 1174.266 ; gain = 307.641 ; free physical = 134 ; free virtual = 5458
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:11 ; elapsed = 00:00:15 . Memory (MB): peak = 1174.266 ; gain = 307.641 ; free physical = 134 ; free virtual = 5458
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |RAM32M |    11|
+|3     |FDRE   |   128|
+|4     |IBUF   |     1|
+|5     |OBUF   |   130|
++------+-------+------+
+
+Report Instance Areas: 
++------+---------------+---------+------+
+|      |Instance       |Module   |Cells |
++------+---------------+---------+------+
+|1     |top            |         |   271|
+|2     |  DataPath_1   |DataPath |   139|
+|3     |    RegEXMEM_1 |RegEXMEM |    64|
+|4     |    RegFile_1  |RegFile  |    11|
+|5     |    RegIDEX_1  |RegIDEX  |    64|
++------+---------------+---------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:11 ; elapsed = 00:00:15 . Memory (MB): peak = 1174.266 ; gain = 307.641 ; free physical = 134 ; free virtual = 5458
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 813 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 1174.266 ; gain = 222.496 ; free physical = 134 ; free virtual = 5458
+Synthesis Optimization Complete : Time (s): cpu = 00:00:11 ; elapsed = 00:00:15 . Memory (MB): peak = 1174.273 ; gain = 307.648 ; free physical = 134 ; free virtual = 5458
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 12 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 11 instances were transformed.
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 11 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+170 Infos, 200 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:10 ; elapsed = 00:00:14 . Memory (MB): peak = 1239.266 ; gain = 300.078 ; free physical = 128 ; free virtual = 5405
+report_utilization: Time (s): cpu = 00:00:00.21 ; elapsed = 00:00:00.36 . Memory (MB): peak = 1271.281 ; gain = 0.000 ; free physical = 133 ; free virtual = 5403
+INFO: [Common 17-206] Exiting Vivado at Wed Jan 12 20:00:44 2022...

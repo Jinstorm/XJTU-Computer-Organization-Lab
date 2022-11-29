@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<Checkpoint Version="5" Minor="0">
+	<BUILD_NUMBER Name="1577090"/>
+	<FULL_BUILD Name="SW Build 1577090 on Thu Jun  2 16:32:35 MDT 2016"/>
+	<PRODUCT Name="Vivado v2016.2 (64-bit)"/>
+	<Part Name="xc7a35tcpg236-1"/>
+	<Top Name="halfadder"/>
+	<DisableAutoIOBuffers Name="0"/>
+	<OutOfContext Name="0"/>
+	<File Type="SHAPE" Name="halfadder.shape" ModTime="1636880883"/>
+	<File Type="EDIF" Name="halfadder.edf" ModTime="1636880883"/>
+	<File Type="VERILOG_STUB" Name="halfadder_stub.v" ModTime="1636880883"/>
+	<File Type="VHDL_STUB" Name="halfadder_stub.vhdl" ModTime="1636880883"/>
+	<File Type="XN" Name="halfadder.xn" ModTime="1636880883"/>
+	<File Type="INCR" Name="halfadder.incr" ModTime="1636880883"/>
+	<File Type="RDA" Name="halfadder.rda" ModTime="1636880883"/>
+	<File Type="REPLAY" Name="halfadder_iPhysOpt.tcl" ModTime="1636880883"/>
+	<File Type="WDF" Name="halfadder.wdf" ModTime="1636880883"/>
+</Checkpoint>
+
