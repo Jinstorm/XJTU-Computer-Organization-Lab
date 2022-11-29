@@ -1,5 +1,5 @@
 # XJTU-Computer-Organization-Lab
-> Xi'an Jiaotong university 计算机组成原理实验
+> Xi'an Jiaotong university 西安交通大学计算机组成原理实验
 > `Verilog`
 
 ### 主要内容
